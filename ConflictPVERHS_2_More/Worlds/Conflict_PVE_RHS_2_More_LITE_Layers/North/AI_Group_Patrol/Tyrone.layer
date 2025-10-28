@@ -1,0 +1,97 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  coords 5172.765 32.238 9250.8
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 3.217 0.751 -124.231
+    }
+    {
+     coords -0.748 0.135 0.404
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 4927.395 36.36 9178.528
+  angleX 0.361
+  angleY -20.559
+  angleZ 0.047
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.243 -0.137 5.953
+    angleX -0.322
+    angleY 20.56
+    angleZ -0.171
+   }
+  }
+ }
+ {
+  coords 5382.052 10.532 8732.01
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -208.425 30.726 85.978
+    }
+    {
+     coords -328.108 29.626 305.955
+    }
+    {
+     coords -148.573 19.738 293.687
+    }
+    {
+     coords 38.061 -0.309 75.65
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iUnitCount 15
+   }
+  }
+  coords 4912.681 35.989 9101.695
+  {
+   SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iUnitCount 15
+   }
+  }
+  coords 4923.489 36.132 9174.081
+  angleY 70.931
+  {
+   SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    coords 0 0 0
+    angleY -70.931
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iUnitCount 15
+   }
+  }
+  coords 5261.388 26.051 9378.153
+  {
+   SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}

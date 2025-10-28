@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player.et" {
+ ID "5242B7AE8EF4D733"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E54F4C40155DC491}Prefabs/Weapons/Rifles/AK12/Rifle_AK12.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{96618DEE024E51CA}Prefabs/Characters/HeadGear/Hats/Hat_Ballcap/Hat_Ballcap_OD.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Armband {
+     Prefab "{F96A42271F2D72CB}Prefabs/Characters/Armbands/Single/Armband_Red.et"
+    }
+   }
+  }
+ }
+}

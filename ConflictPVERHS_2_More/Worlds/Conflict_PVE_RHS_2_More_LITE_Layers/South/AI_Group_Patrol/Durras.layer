@@ -1,0 +1,19 @@
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+  }
+ }
+ coords 8825.127 94.697 2740.803
+ angleX -1.964
+ angleY 164.397
+ angleZ -0.38
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.002 0.269 6.947
+   angleX -1.789
+   angleY -164.376
+   angleZ -0.895
+  }
+ }
+}

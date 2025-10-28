@@ -1,0 +1,22 @@
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_iUnitCount 10
+  }
+ }
+ coords 6980.352 58.329 3486.074
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -44.973 -17.826 -108.841
+   }
+   {
+    coords -66.5 -25.911 71.633
+   }
+   {
+    coords 38.623 7.281 17.75
+   }
+  }
+ }
+}

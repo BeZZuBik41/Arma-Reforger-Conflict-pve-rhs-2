@@ -1,0 +1,857 @@
+RadioManagerEntity {
+ coords 2884.968 91.924 6293.253
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_CommandingManagerComponent "{5D16783AFAE684F8}" {
+   m_iMaxAIPerGroup 16
+  }
+  SCR_DataCollectorComponent "{5ADE83EE64329989}" {
+   m_iOptionalKickingKickPenaltyLimit 20
+  }
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+ }
+ coords 26.726 0 10.962
+ m_iControlPointsThreshold 67
+ m_iSuppliesReplenishThreshold 30000
+ m_iRegularSuppliesIncomeBase 5
+ m_iRegularSuppliesIncomeExtra 3
+ m_iMaxStartingSupplies 300
+ m_sBLUFORFactionKey "RHS_USAF"
+ m_sOPFORFactionKey "RHS_AFRF"
+ m_iSuicidePenaltyCooldown 60
+ m_iSuicideForgiveCooldown 60
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 20.291 0 5.837
+}
+$grp SCR_CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ CampaignFactionManager1 {
+  Flags 2097152
+  coords 348.729 1 529.716
+  Factions {
+   SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{C3C8730223A0688E}Configs/Factions/RHS_RF_MSV_Campaign.conf" {
+    m_iOrder 1
+   }
+   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{02D40AEC45F57851}Configs/Factions/RHS_US_USMC_Campaign.conf" {
+    m_iOrder 0
+    m_bIsPlayable 0
+   }
+   SCR_CampaignFaction "{56F0C3A6336375DC}" {
+    m_iOrder 3
+   }
+  }
+ }
+ CampaignFactionManager2_NEW {
+  coords 5547.606 91.218 5966.333
+  Factions {
+   SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{C3C8730223A0688E}Configs/Factions/RHS_RF_MSV_Campaign.conf" {
+    m_iOrder 1
+    m_aRanks {
+     SCR_CharacterRank "{528E9D9FAAB617C6}" {
+     }
+     SCR_CharacterRank "{528E9D9FAB192253}" {
+     }
+     SCR_CharacterRank "{528E9D9FAB87F519}" {
+     }
+     SCR_CharacterRank "{528E9D9FA4EA5C39}" {
+     }
+     SCR_CharacterRank "{528E9D9FA563C005}" {
+     }
+     SCR_CharacterRank "{528E9D9FA64A043C}" {
+     }
+     SCR_CharacterRank "{528E9D9FA77F696E}" {
+     }
+    }
+    m_aEntityCatalogs {
+     SCR_EntityCatalogMultiList "{5D4A87E91A3951E1}" {
+      m_aEntityEntryList {
+       SCR_EntityCatalogEntry "{5D4A87E896BE919C}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A74868FBF}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A72A6D4DA}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E897C51CCD}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A7A46F2E9}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A7CBE42DD}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8976E76C7}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A42D97D47}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A414FA423}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E89443C9CF}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A482234EC}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A57673CF1}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E895E706B4}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E89287231E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A273D84CD}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A59F7D089}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A2806C347}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E892684B21}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A20E05431}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A2FC80530}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E893ED0E26}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A3E980F6C}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A3D15B79A}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A0098C676}" {
+       }
+       SCR_EntityCatalogEntry "{63173D46F3F99333}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A059446B1}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A0770A378}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E880BC695B}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A17770D82}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A10F93723}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A190BB021}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AE7B03398}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AE6DCCE11}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8807C72B8}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8B232E55C}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AEC7C21E5}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AEA816827}" {
+       }
+       SCR_EntityCatalogEntry "{60D6AEDD520D2CC0}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AF4CF7B8B}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AF293B10B}" {
+       }
+       SCR_EntityCatalogEntry "{60D6AEDD5001DF1E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AFB1232C0}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AF9E54E75}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE449266F4C}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AC0910849}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2ACF52393B}" {
+       }
+       SCR_EntityCatalogEntry "{60D6AEDD4EA93AD0}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AD7E64138}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AC91E3687}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE4488B689E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2ADB79FBF0}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AD8FFA4E2}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA7DFD3CF}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA5E7C31B}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA3CE7A41}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA03FE87F}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AAF2C1CA4}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA13ABCD9}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA23A968C}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA4E6595C}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AA6D77CBF}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2AD9A9DCEB}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A86AEF0C6}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A835F0CCB}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A8444A178}" {
+       }
+       SCR_EntityCatalogEntry "{61789E2A853B9D07}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE44872D3FF}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE457C07709}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE456A7F815}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45605B370}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE455E00296}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE454B5D032}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45401AAFA}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE453ED18D6}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE452B3BC03}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE4523AAD00}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE451A7363D}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE4513F4275}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45F17BFD8}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45EF1E49E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45E6B9E12}" {
+       }
+       SCR_EntityCatalogEntry "{60D6AEDDCFA81BA8}" {
+       }
+       SCR_EntityCatalogEntry "{60D6AEDDCED9A0F6}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45DC19175}" {
+       }
+       SCR_EntityCatalogEntry "{60D6AEDDD60EACB4}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45CA91410}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B206BB6B4}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B2E2FD7CC}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B048F8ADB}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B0139BF47}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B158863E5}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B146E5055}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B0891E164}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B0989BEE4}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B0AAEF520}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B0C495755}" {
+       }
+       SCR_EntityCatalogEntry "{60DAE61B0D7ACBDA}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45C06E77E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45BCA6C73}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45A96C51E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45A66C725}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE459CC8569}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE458A8CDA1}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE45873E94B}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE427DA04B3}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42691F365}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE4260E5B5C}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE425D47068}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE424B8FF4D}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE4247E6B3C}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE423CC4143}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42298C824}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE422765DC0}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE421D91998}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE420AEB79B}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42050DE26}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42F76BF44}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42E36DDE9}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42D8F165E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42CCA93C1}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42BABC39C}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42B0B7B8A}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE42AC35627}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE429984DB7}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE429791117}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE428DB8A6A}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE4379C61DA}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03C183EBA3}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03C000B678}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03CE78E86E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03CCD1C18A}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03DBFDFE0F}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03D862B2D9}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03A67E6310}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03A409712D}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03A0BA4764}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03AF29BF61}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03AE5DCEF4}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03ACE052F8}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03AB226009}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03AA603992}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03A94DB73C}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03B7E3C035}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03B6374EF7}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03B3A04564}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03B28C9AF3}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03BE14F46A}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03BFA6773E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03BD4CFC95}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03B1E000C3}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03B503158E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E03A21C211E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0061715EFD}" {
+       }
+       SCR_EntityCatalogEntry "{61789E006FC4A846}" {
+       }
+       SCR_EntityCatalogEntry "{61789E00478C9743}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0045B5F0A7}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0044038160}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0042D4837D}" {
+       }
+       SCR_EntityCatalogEntry "{61789E004C008344}" {
+       }
+       SCR_EntityCatalogEntry "{61789E004A48C47B}" {
+       }
+       SCR_EntityCatalogEntry "{61789E004B728EFB}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0048C21FB4}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0057398D88}" {
+       }
+       SCR_EntityCatalogEntry "{61789E00562AEEA2}" {
+       }
+       SCR_EntityCatalogEntry "{61789E004D23DAFA}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0040A43531}" {
+       }
+       SCR_EntityCatalogEntry "{61789E004F46E2FB}" {
+       }
+       SCR_EntityCatalogEntry "{61789E003E4D3BEB}" {
+       }
+       SCR_EntityCatalogEntry "{61789E003C462BF7}" {
+       }
+       SCR_EntityCatalogEntry "{61789E00068151F3}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0004E401B4}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0003EE709A}" {
+       }
+       SCR_EntityCatalogEntry "{61789E000240781E}" {
+       }
+       SCR_EntityCatalogEntry "{61789E0005FBF33B}" {
+       }
+       SCR_EntityCatalogEntry "{61789E00078C975F}" {
+       }
+      }
+      m_aMultiLists {
+       SCR_EntityCatalogMultiListEntry "{63173043D98C139B}" {
+       }
+      }
+     }
+     SCR_EntityCatalogMultiList "{5D4A87E8100151BB}" {
+      m_aMultiLists {
+       SCR_EntityCatalogMultiListEntry "{61835C0062A55061}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{61835C0124E899AC}" {
+       }
+      }
+     }
+     SCR_EntityCatalogMultiList "{5D4A87E82561D86F}" {
+      m_aEntityEntryList {
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBE1}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBE6}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBDB}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBDA}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBD9}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBDF}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBDE}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBDD}" {
+       }
+       SCR_EntityCatalogEntry "{5D4A87E8085EFBDC}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE56A138778}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE569C5FA4C}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE568F49945}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE577FA1C60}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE576A3D748}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE57651CBA0}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE57F96F85D}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE57F57CD4A}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE57E3D6E7C}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE57DF32E33}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE57CA057DE}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE57896D922}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE578028E3E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE547EED298}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE546A490AF}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE5460C490E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE545EFCA60}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE544B600F7}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE5440610E7}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE543E38134}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE542B7748E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE5426F35EA}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE5412C2E1E}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE540F3287B}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE54FB1DB89}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE54F23ED3F}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE54E8AE951}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE54E6667E4}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE54DC19295}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE54CAF4791}" {
+       }
+       SCR_EntityCatalogEntry "{60B35DE54C0E1349}" {
+       }
+      }
+      m_aMultiLists {
+       SCR_EntityCatalogMultiListEntry "{61A275AEEF77DBF2}" {
+       }
+      }
+     }
+     SCR_EntityCatalog "{5D4A87E87C747943}" {
+      m_aEntityEntryList {
+       SCR_EntityCatalogEntry "{5D4A87E84A78F986}" {
+       }
+      }
+     }
+     SCR_EntityCatalogMultiList "{5D4A87EAF0298FBD}" {
+      m_aMultiLists {
+       SCR_EntityCatalogMultiListEntry "{5D4A87E86D216247}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{5D4A87E86D216210}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{5D4A87E86D216273}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{5D4A87E86D216255}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{651100784354DF07}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{5D4A87E86D2162AA}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{5D4A87E86D21628F}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{647F6A2D7F481C88}" {
+       }
+       SCR_EntityCatalogMultiListEntry "{64F2C6DD4EEB8F65}" {
+       }
+      }
+     }
+    }
+    m_aBaseCallsigns {
+     SCR_MilitaryBaseCallsign "{5C9108F95F3FB520}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F0034DB}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F6514E7}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F4EE8BF}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F5021F9}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95FBA4C89}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F9C00A9}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95FE17E10}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95FCBA475}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E2B2963}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E3040F5}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E17C67D}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E797F8A}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E431F83}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EA7F87E}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E88C6B9}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EEDE322}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EF6244A}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EDAF04A}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D3CCF27}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D076483}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D68D0F3}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D4C0F8E}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D56EEEE}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95DBA92EE}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C69680D}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C4FD930}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C5255FD}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95CB621AE}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C9545BC}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95CFE26C3}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95CDD263C}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B27128C}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B08D83D}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B6D3FC2}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B712949}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B57D185}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95BB17114}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B97C054}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95BFC33E5}" {
+     }
+    }
+    m_aStartingVehicles +{
+    }
+   }
+   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{02D40AEC45F57851}Configs/Factions/RHS_US_USMC_Campaign.conf" {
+    FactionKey "FIA"
+    m_iOrder 0
+    m_bIsPlayable 0
+    m_FactionLabel FACTION_FIA
+    m_aFriendlyFactionsIds {
+    }
+    m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+     m_aCompanyNames {
+      SCR_CallsignInfo "{66306CE48B385153}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_0"
+      }
+      SCR_CallsignInfo "{66306CE48AE63CA9}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_1"
+      }
+      SCR_CallsignInfo "{66306CE48A9B55AB}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_2"
+      }
+      SCR_CallsignInfo "{66306CE48ABEA416}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_3"
+      }
+      SCR_CallsignInfo "{66306CE48A5017A3}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_4"
+      }
+      SCR_CallsignInfo "{66306CE48A4B8407}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_5"
+      }
+      SCR_CallsignInfo "{66306CE57FAE7081}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_6"
+      }
+      SCR_CallsignInfo "{66306CE57F48B5B6}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_7"
+      }
+     }
+     m_aPlatoonNames {
+      SCR_CallsignInfo "{66306CE548D6D25B}" {
+       m_sCallsign "1"
+      }
+      SCR_CallsignInfo "{66306CE548F7EDCE}" {
+       m_sCallsign "2"
+      }
+      SCR_CallsignInfo "{66306CE548E8130D}" {
+       m_sCallsign "3"
+      }
+      SCR_CallsignInfo "{66306CE548802A0A}" {
+       m_sCallsign "4"
+      }
+      SCR_CallsignInfo "{66306CE548A5ED88}" {
+       m_sCallsign "5"
+      }
+      SCR_CallsignInfo "{66306CE54869C7B1}" {
+       m_sCallsign "6"
+      }
+      SCR_CallsignInfo "{66306CE5432852B2}" {
+       m_sCallsign "7"
+      }
+      SCR_CallsignInfo "{66306CE542FB8673}" {
+       m_sCallsign "8"
+      }
+      SCR_CallsignInfo "{66306CE54280E4A5}" {
+       m_sCallsign "9"
+      }
+     }
+     m_aSquadNames {
+      SCR_CallsignInfo "{66306CE52F870D18}" {
+       m_sCallsign "5"
+      }
+     }
+    }
+   }
+   SCR_CampaignFaction "{56F0C3A6336375DC}" {
+    FactionKey "RHS_USAF"
+    m_iOrder 3
+    m_FactionLabel FACTION_RHS_USAF
+    m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+     m_aCompanyNames {
+      SCR_CallsignInfo "{66306CE4D7458880}" {
+       m_sCallsign "#AR-Callsign_US_Company_A"
+      }
+      SCR_CallsignInfo "{66306CE4BC84FFE9}" {
+       m_sCallsign "#AR-Callsign_US_Company_B"
+      }
+      SCR_CallsignInfo "{66306CE49DA9C705}" {
+       m_sCallsign "#AR-Callsign_US_Company_C"
+      }
+      SCR_CallsignInfo "{66306CE49D03411D}" {
+       m_sCallsign "#AR-Callsign_US_Company_D"
+      }
+      SCR_CallsignInfo "{66306CE49CE75B4C}" {
+       m_sCallsign "#AR-Callsign_US_Company_E"
+      }
+      SCR_CallsignInfo "{66306CE49CB2DE1C}" {
+       m_sCallsign "#AR-Callsign_US_Company_F"
+      }
+      SCR_CallsignInfo "{66306CE49C46D1B7}" {
+       m_sCallsign "#AR-Callsign_US_Company_G"
+      }
+      SCR_CallsignInfo "{66306CE49C669494}" {
+       m_sCallsign "#AR-Callsign_US_Company_H"
+      }
+     }
+     m_aPlatoonNames {
+      SCR_CallsignInfo "{66306CE555EF1539}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_1"
+      }
+      SCR_CallsignInfo "{66306CE555BA112C}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_2"
+      }
+      SCR_CallsignInfo "{66306CE5554995A7}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_3"
+      }
+      SCR_CallsignInfo "{66306CE5551FF8D8}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_4"
+      }
+     }
+    }
+   }
+  }
+ }
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords -0.018 0 0.077
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
+ }
+}
+SCR_MapLocator {
+ coords 10434.78 0 1142.689
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}
+SCR_LoadoutManager : "{06D7053D08A0FD00}Prefabs/MP/Managers/Loadouts/LoadoutManager_USMCxMSV.et" {
+ Flags 2097152
+ coords 327.277 1 474.28
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{60D6AED0560D4234}" {
+   m_sLoadoutName "Rifleman"
+   m_sLoadoutResource "{82B048F236674D1C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman_2.et"
+   m_sLoadoutImage "{38D675606558B7E9}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman2.edds"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED0550DD4A3}" {
+   m_sLoadoutName "Medic"
+   m_sLoadoutResource "{816A594FAD3F711A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Medic.et"
+   m_sLoadoutImage "{EC2B8F2DADDCFE5E}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Medic.edds"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1D0319498}" {
+   m_sLoadoutName "Machinegunner"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1D23A1D9B}" {
+   m_sLoadoutName "Grenadier"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1D1C85AFC}" {
+   m_sLoadoutName "AntiTank"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1A14D066F}" {
+   m_sLoadoutName "Sniper"
+  }
+  SCR_FactionPlayerLoadout "{66452B5FB3171618}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sLoadoutImage ""
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{663EB9C946228707}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sLoadoutImage ""
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{663F169DF50EF294}" {
+   m_sLoadoutName "Sapper"
+   m_sLoadoutResource "{D70ED19BF7F83BE0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sapper.et"
+   m_sLoadoutImage "{26F0771F2BFC9C94}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sapper.edds"
+  }
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 20.724 0 7.936
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 27.209 0 10.918
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 0 0 0
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 327.277 1 474.28
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
+   m_sLoadoutResource "{8B567897680EB9FA}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
+   m_sLoadoutResource "{8B567897680EB9FA}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_PlayerArsenalLoadout "{5B108B4948B445F8}" {
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{66452B5A7F3184F7}" {
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{66452B5A7E1613A9}" {
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{66452B5A790CA01D}" {
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{66452B5A5DCE6521}" {
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+ }
+}

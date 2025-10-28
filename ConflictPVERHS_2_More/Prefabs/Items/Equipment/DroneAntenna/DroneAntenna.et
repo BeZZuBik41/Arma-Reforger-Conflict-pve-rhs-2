@@ -1,0 +1,13 @@
+GenericEntity : "{D072D3706963BB04}Prefabs/Drones/FPVBase/FPVBasicRotor.et" {
+ ID "658B340BE800639F"
+ components {
+  InventoryItemComponent "{65E2E240DADA1D82}" {
+   Attributes SCR_ItemAttributeCollection "{65E2E240D7D3DF15}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{65E2E24060936C9D}" {
+     Weight 2
+     ItemVolume 2000
+    }
+   }
+  }
+ }
+}

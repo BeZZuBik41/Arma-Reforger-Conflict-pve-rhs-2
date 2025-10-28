@@ -1,0 +1,248 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MajorBaseMorton {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
+    m_sMapLocationName "LocationMorton"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 4982.464 2.187 3846.874
+  angleY 29.698
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -13.152 0.001 21.832
+   }
+  }
+ }
+ SmallBaseLake {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_PinewoodLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 4439.679 58.718 6237.203
+  angleY 175.979
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 15
+     }
+    }
+    coords 2.01 0.222 12.112
+    angleY 35.382
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 10
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -6.675 0.222 -0.117
+    angleY 35.382
+   }
+  }
+ }
+ SmallBaseRichemont {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Richemont"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Richemont-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 4539.221 64.1 4993.633
+  angleY -89.382
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 9
+     }
+    }
+    coords 0 -0.433 15
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 8
+     }
+    }
+   }
+  }
+ }
+ SmallBaseSimonsWood {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_SimonsWood"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_SimonsWood-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 6579.463 81.999 5135.611
+  angleY -70.199
+  angleZ -3.464
+  {
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 13
+     }
+    }
+   }
+  }
+ }
+ SmallBaseTillersFind {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 3789.583 59.781 6997.688
+  angleY -49.512
+  {
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 13
+     }
+    }
+   }
+  }
+ }
+ TownBaseFigari {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Figari"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
+    m_sMapLocationName "LocationFigari"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 5125.889 52.666 5495.677
+  angleY 178.943
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 15
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 9
+     }
+    }
+   }
+  }
+ }
+ TownBaseMontignac {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Montignac"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
+    m_sMapLocationName "LocationMontignac"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 5124.376 175.5 6980.63
+  angleX -1.591
+  angleY -91.148
+  angleZ -0.256
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 15
+     }
+    }
+    coords -0.002 1.307 15.014
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 15
+     }
+    }
+   }
+  }
+ }
+ TownBaseProvins {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Provins"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
+    m_sMapLocationName "C_LocationProvins"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+  }
+  coords 5573.916 89.079 5895.073
+  angleY 9.853
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 13
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iUnitCount 13
+     }
+    }
+   }
+  }
+ }
+}

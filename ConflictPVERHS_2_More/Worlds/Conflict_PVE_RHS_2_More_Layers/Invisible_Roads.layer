@@ -1,0 +1,424 @@
+$grp SplineShapeEntity {
+ {
+  coords 5077.573 36.33 11324.115
+  Points {
+   ShapePoint "{645E6134F0139524}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E6134F013BC30}" {
+    Position 14.232 0.264 -4.288
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    Flags 2
+    coords 0 0 0
+    RoadWidth 5
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E613417C887DE}" {
+        Position 0 0 0
+       }
+       ShapePoint "{645E613417C88FA8}" {
+        Position 14.232 0.264 -4.288
+       }
+      }
+      IsClosedSpline 0
+      Type Path
+      Width 5
+      RandomSeed 8107
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5074.716 36.219 11322.756
+  angleY 3.099
+  Points {
+   ShapePoint "{645E7D0CB190067F}" {
+    Position 0.292 0.018 -0.49
+   }
+   ShapePoint "{645E7D0CB190323D}" {
+    Position 3.331 0.189 4.937
+   }
+   ShapePoint "{645E7D0CC2F5F681}" {
+    Position 2.316 0.343 12.079
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D0C0F3F5B24}" {
+        Position 0.292 0.018 -0.49
+       }
+       ShapePoint "{645E7D0C0F3F5A3A}" {
+        Position 3.331 0.189 4.936
+       }
+       ShapePoint "{645E7D0C0F3F5A6C}" {
+        Position 2.316 0.343 12.079
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 25872
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4482.056 22.74 9126.077
+  Points {
+   ShapePoint "{645E7D0AEA5C445A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E7D0AEA5C7413}" {
+    Position -7.316 0.248 -1.151
+   }
+   ShapePoint "{645E7D0AE2064D5A}" {
+    Position -16.359 -0.593 3.04
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D0A097F5B9C}" {
+        Position 0 0 0
+       }
+       ShapePoint "{645E7D0A097F5AC8}" {
+        Position -7.316 0.248 -1.151
+       }
+       ShapePoint "{645E7D0A097F5A34}" {
+        Position -16.359 -0.593 3.04
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 16790
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4479.32 23.142 9123.526
+  Points {
+   ShapePoint "{645E7D0AE6A8828B}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E7D0AE6A8B333}" {
+    Position -3.974 2.091 -18.719
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D0A0D4803C7}" {
+        Position 0 0 0
+       }
+       ShapePoint "{645E7D0A0D4802CF}" {
+        Position -3.974 2.091 -18.719
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 10251
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4094.651 33.204 7805.11
+  Points {
+   ShapePoint "{645E7D04B2280B4A}" {
+    Position -0.238 0.006 1.084
+   }
+   ShapePoint "{645E7D04B2283109}" {
+    Position 0.214 0.09 10.123
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D04C56E488B}" {
+        Position -0.238 0.006 1.084
+       }
+       ShapePoint "{645E7D04C56E4F8E}" {
+        Position 0.214 0.09 10.123
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 1402
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3571.976 159.911 5942.43
+  Points {
+   ShapePoint "{645E7D108543D0B5}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E7D108543FE7C}" {
+    Position 1.007 0.229 -2.595
+   }
+   ShapePoint "{645E7D109998C9C7}" {
+    Position 8.249 -0.467 -6.896
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D109450FF47}" {
+        Position 0 0 0
+       }
+       ShapePoint "{645E7D109450FD8D}" {
+        Position 1.007 0.229 -2.595
+       }
+       ShapePoint "{645E7D109450FDE8}" {
+        Position 8.249 -0.467 -6.896
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 4292
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3579.219 86.11 6492.474
+  Points {
+   ShapePoint "{645E7D101AE7FDBF}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E7D101AE7E5D9}" {
+    Position -3.192 0.056 4.598
+   }
+   ShapePoint "{645E7D101FEE3EA4}" {
+    Position -9.777 0.862 3.905
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D1013652946}" {
+       }
+       ShapePoint "{645E7D10136528E5}" {
+        Position -3.192 0.056 4.598
+       }
+       ShapePoint "{645E7D1013652864}" {
+        Position -9.777 0.862 3.905
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 20727
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5610.004 6.744 3711.611
+  Points {
+   ShapePoint "{645E7D2D42E02326}" {
+    Position 0.535 0.052 0.523
+   }
+   ShapePoint "{645E7D2D42E0CAD3}" {
+    Position 2.334 -0.111 -4.766
+   }
+   ShapePoint "{645E7D2EF32C4B48}" {
+    Position 9.638 -0.32 -10.828
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D2D6E3248AC}" {
+        Position 0.535 0.052 0.523
+       }
+       ShapePoint "{645E7D2D6E324FE5}" {
+        Position 2.334 -0.111 -4.766
+       }
+       ShapePoint "{645E7D2EF32F7D6D}" {
+        Position 9.638 -0.32 -10.828
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 10
+      RandomSeed 13745
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5611.377 6.969 3712.852
+  Points {
+   ShapePoint "{645E7D2D546E730A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E7D2D546E6049}" {
+    Position -5.273 -0.165 -1.266
+   }
+   ShapePoint "{645E7D2D6954FAA0}" {
+    Position -14.333 0.04 0.793
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D2D7AED89C9}" {
+       }
+       ShapePoint "{645E7D2D7AED8971}" {
+        Position -5.273 -0.165 -1.266
+       }
+       ShapePoint "{645E7D2D7AED88F7}" {
+        Position -14.333 0.04 0.793
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 23348
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7597.748 80.001 5544.492
+  Points {
+   ShapePoint "{645E7D22D2B0107F}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E7D22D2B03113}" {
+    Position -4.396 0.269 1.804
+   }
+   ShapePoint "{645E7D22D60C3743}" {
+    Position -9.867 0.562 7.769
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D22FF7AD24E}" {
+        Position 0 0 0
+       }
+       ShapePoint "{645E7D22FF7AD0B9}" {
+        Position -4.396 0.269 1.804
+       }
+       ShapePoint "{645E7D22FF7AD0E2}" {
+        Position -9.867 0.562 7.769
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 25981
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7595.772 80.186 5543.501
+  Points {
+   ShapePoint "{645E7D22EE08436E}" {
+    Position 0 0 0
+   }
+   ShapePoint "{645E7D22EE086757}" {
+    Position -1.86 0.258 -4.627
+   }
+   ShapePoint "{645E7D22E3255AFC}" {
+    Position -1.505 0.255 -10.994
+   }
+  }
+  {
+   RoadGeneratorEntity {
+    coords 0 0 0
+    {
+     RoadEntity {
+      Flags 2
+      coords 0 0 0
+      SplinePoints {
+       ShapePoint "{645E7D22F1B059F9}" {
+       }
+       ShapePoint "{645E7D22F1B05964}" {
+        Position -1.86 0.258 -4.627
+       }
+       ShapePoint "{645E7D22F1B05812}" {
+        Position -1.505 0.255 -10.994
+       }
+      }
+      IsClosedSpline 0
+      Type "Road Minor"
+      Width 5
+      RandomSeed 6658
+     }
+    }
+   }
+  }
+ }
+}
