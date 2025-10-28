@@ -1,0 +1,97 @@
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ VehicleSpawnPoint_26 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     21 50
+    }
+    m_aExcludedEditableEntityLabels {
+    }
+    m_bIsVehiclePatrol 1
+   }
+  }
+  coords 4936.089 36.094 9135.494
+  {
+   GenericEntity AmbientPatrol36 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords 0 0 0
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      AIWaypoint_Vehicle_Patrol_136 {
+       coords 0 0 0
+      }
+      AIWaypoint_Vehicle_Patrol_137 {
+       coords -65.688 -1.645 121.966
+      }
+      AIWaypoint_Vehicle_Patrol_138 {
+       coords -280.997 -26.326 145.982
+      }
+      AIWaypoint_Vehicle_Patrol_139 {
+       coords -406.535 -28.007 221.611
+      }
+     }
+    }
+   }
+  }
+ }
+ VehicleSpawnPoint_32 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     21 53
+    }
+    m_aExcludedEditableEntityLabels {
+    }
+    m_bIsVehiclePatrol 1
+   }
+  }
+  coords 4425.989 1.607 11069.014
+  {
+   GenericEntity AmbientPatrol42 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords 0 0 0
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      AIWaypoint_Vehicle_Patrol_158 {
+       coords 0 0 0
+      }
+      AIWaypoint_Vehicle_Patrol_159 {
+       coords 72.202 5.621 -50.605
+      }
+      AIWaypoint_Vehicle_Patrol_160 {
+       coords 120.835 13.245 -169.19
+      }
+      AIWaypoint_Vehicle_Patrol_161 {
+       coords 167.18 16.547 -409.332
+      }
+      AIWaypoint_Vehicle_Patrol_162 {
+       coords -158.287 10.841 -465.64
+      }
+      AIWaypoint_Vehicle_Patrol_163 {
+       coords -179.966 4.584 -419.739
+      }
+      AIWaypoint_Vehicle_Patrol_164 {
+       coords -124.602 3.337 -370.039
+      }
+      AIWaypoint_Vehicle_Patrol_165 {
+       coords 45.158 11.641 -353.946
+      }
+      AIWaypoint_Vehicle_Patrol_166 {
+       coords 145.526 16.586 -333.874
+      }
+     }
+    }
+   }
+  }
+ }
+}

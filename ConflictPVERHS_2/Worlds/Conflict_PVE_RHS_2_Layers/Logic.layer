@@ -1,0 +1,373 @@
+RadioManagerEntity {
+ coords 2884.968 91.924 6293.253
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_CommandingManagerComponent "{5D16783AFAE684F8}" {
+   m_iMaxAIPerGroup 16
+  }
+  SCR_DataCollectorComponent "{5ADE83EE64329989}" {
+   m_iOptionalKickingKickPenaltyLimit 20
+  }
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+ }
+ coords 26.726 0 10.962
+ m_iControlPointsThreshold 67
+ m_iSuppliesReplenishThreshold 30000
+ m_iRegularSuppliesIncomeBase 5
+ m_iRegularSuppliesIncomeExtra 3
+ m_iMaxStartingSupplies 300
+ m_sBLUFORFactionKey "RHS_USAF"
+ m_sOPFORFactionKey "RHS_AFRF"
+ m_iSuicidePenaltyCooldown 60
+ m_iSuicideForgiveCooldown 60
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 20.291 0 5.837
+}
+$grp SCR_CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ CampaignFactionManager1 {
+  Flags 2097152
+  coords 348.729 1 529.716
+  Factions {
+   SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{C3C8730223A0688E}Configs/Factions/RHS_RF_MSV_Campaign.conf" {
+    m_iOrder 1
+   }
+   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{02D40AEC45F57851}Configs/Factions/RHS_US_USMC_Campaign.conf" {
+    m_iOrder 0
+    m_bIsPlayable 0
+   }
+   SCR_CampaignFaction "{56F0C3A6336375DC}" {
+    m_iOrder 3
+   }
+  }
+ }
+ CampaignFactionManager2_NEW {
+  coords 5547.606 91.218 5966.333
+  Factions {
+   SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{C3C8730223A0688E}Configs/Factions/RHS_RF_MSV_Campaign.conf" {
+    m_iOrder 1
+    m_aRanks {
+     SCR_CharacterRank "{528E9D9FAAB617C6}" {
+     }
+     SCR_CharacterRank "{528E9D9FAB192253}" {
+     }
+     SCR_CharacterRank "{528E9D9FAB87F519}" {
+     }
+     SCR_CharacterRank "{528E9D9FA4EA5C39}" {
+     }
+     SCR_CharacterRank "{528E9D9FA563C005}" {
+     }
+     SCR_CharacterRank "{528E9D9FA64A043C}" {
+     }
+     SCR_CharacterRank "{528E9D9FA77F696E}" {
+     }
+    }
+    m_aEntityCatalogs {
+     SCR_EntityCatalogMultiList "{5D4A87E91A3951E1}" {
+     }
+     SCR_EntityCatalogMultiList "{5D4A87E8100151BB}" {
+     }
+     SCR_EntityCatalogMultiList "{5D4A87E82561D86F}" {
+     }
+     SCR_EntityCatalog "{5D4A87E87C747943}" {
+     }
+     SCR_EntityCatalogMultiList "{5D4A87EAF0298FBD}" {
+     }
+    }
+    m_aBaseCallsigns {
+     SCR_MilitaryBaseCallsign "{5C9108F95F3FB520}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F0034DB}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F6514E7}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F4EE8BF}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F5021F9}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95FBA4C89}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95F9C00A9}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95FE17E10}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95FCBA475}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E2B2963}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E3040F5}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E17C67D}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E797F8A}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E431F83}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EA7F87E}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95E88C6B9}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EEDE322}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EF6244A}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95EDAF04A}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D3CCF27}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D076483}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D68D0F3}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D4C0F8E}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95D56EEEE}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95DBA92EE}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C69680D}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C4FD930}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C5255FD}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95CB621AE}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95C9545BC}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95CFE26C3}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95CDD263C}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B27128C}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B08D83D}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B6D3FC2}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B712949}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B57D185}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95BB17114}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95B97C054}" {
+     }
+     SCR_MilitaryBaseCallsign "{5C9108F95BFC33E5}" {
+     }
+    }
+    m_aStartingVehicles +{
+    }
+   }
+   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{02D40AEC45F57851}Configs/Factions/RHS_US_USMC_Campaign.conf" {
+    FactionKey "FIA"
+    m_iOrder 0
+    m_bIsPlayable 0
+    m_FactionLabel FACTION_FIA
+    m_aFriendlyFactionsIds {
+    }
+    m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+     m_aCompanyNames {
+      SCR_CallsignInfo "{66306CE48B385153}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_0"
+      }
+      SCR_CallsignInfo "{66306CE48AE63CA9}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_1"
+      }
+      SCR_CallsignInfo "{66306CE48A9B55AB}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_2"
+      }
+      SCR_CallsignInfo "{66306CE48ABEA416}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_3"
+      }
+      SCR_CallsignInfo "{66306CE48A5017A3}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_4"
+      }
+      SCR_CallsignInfo "{66306CE48A4B8407}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_5"
+      }
+      SCR_CallsignInfo "{66306CE57FAE7081}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_6"
+      }
+      SCR_CallsignInfo "{66306CE57F48B5B6}" {
+       m_sCallsign "#AR-Callsign_FIA_Company_7"
+      }
+     }
+     m_aPlatoonNames {
+      SCR_CallsignInfo "{66306CE548D6D25B}" {
+       m_sCallsign "1"
+      }
+      SCR_CallsignInfo "{66306CE548F7EDCE}" {
+       m_sCallsign "2"
+      }
+      SCR_CallsignInfo "{66306CE548E8130D}" {
+       m_sCallsign "3"
+      }
+      SCR_CallsignInfo "{66306CE548802A0A}" {
+       m_sCallsign "4"
+      }
+      SCR_CallsignInfo "{66306CE548A5ED88}" {
+       m_sCallsign "5"
+      }
+      SCR_CallsignInfo "{66306CE54869C7B1}" {
+       m_sCallsign "6"
+      }
+      SCR_CallsignInfo "{66306CE5432852B2}" {
+       m_sCallsign "7"
+      }
+      SCR_CallsignInfo "{66306CE542FB8673}" {
+       m_sCallsign "8"
+      }
+      SCR_CallsignInfo "{66306CE54280E4A5}" {
+       m_sCallsign "9"
+      }
+     }
+     m_aSquadNames {
+      SCR_CallsignInfo "{66306CE52F870D18}" {
+       m_sCallsign "5"
+      }
+     }
+    }
+   }
+   SCR_CampaignFaction "{56F0C3A6336375DC}" {
+    FactionKey "RHS_USAF"
+    m_iOrder 3
+    m_FactionLabel FACTION_RHS_USAF
+    m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+     m_aCompanyNames {
+      SCR_CallsignInfo "{66306CE4D7458880}" {
+       m_sCallsign "#AR-Callsign_US_Company_A"
+      }
+      SCR_CallsignInfo "{66306CE4BC84FFE9}" {
+       m_sCallsign "#AR-Callsign_US_Company_B"
+      }
+      SCR_CallsignInfo "{66306CE49DA9C705}" {
+       m_sCallsign "#AR-Callsign_US_Company_C"
+      }
+      SCR_CallsignInfo "{66306CE49D03411D}" {
+       m_sCallsign "#AR-Callsign_US_Company_D"
+      }
+      SCR_CallsignInfo "{66306CE49CE75B4C}" {
+       m_sCallsign "#AR-Callsign_US_Company_E"
+      }
+      SCR_CallsignInfo "{66306CE49CB2DE1C}" {
+       m_sCallsign "#AR-Callsign_US_Company_F"
+      }
+      SCR_CallsignInfo "{66306CE49C46D1B7}" {
+       m_sCallsign "#AR-Callsign_US_Company_G"
+      }
+      SCR_CallsignInfo "{66306CE49C669494}" {
+       m_sCallsign "#AR-Callsign_US_Company_H"
+      }
+     }
+     m_aPlatoonNames {
+      SCR_CallsignInfo "{66306CE555EF1539}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_1"
+      }
+      SCR_CallsignInfo "{66306CE555BA112C}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_2"
+      }
+      SCR_CallsignInfo "{66306CE5554995A7}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_3"
+      }
+      SCR_CallsignInfo "{66306CE5551FF8D8}" {
+       m_sCallsign "#AR-Callsign_US_Platoon_4"
+      }
+     }
+    }
+   }
+  }
+ }
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords -0.018 0 0.077
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
+ }
+}
+SCR_MapLocator {
+ coords 10434.78 0 1142.689
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}
+SCR_LoadoutManager : "{06D7053D08A0FD00}Prefabs/MP/Managers/Loadouts/LoadoutManager_USMCxMSV.et" {
+ Flags 2097152
+ coords 327.277 1 474.28
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{60D6AED0560D4234}" {
+   m_sLoadoutName "Rifleman"
+   m_sLoadoutResource "{82B048F236674D1C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman_2.et"
+   m_sLoadoutImage "{38D675606558B7E9}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman2.edds"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED0550DD4A3}" {
+   m_sLoadoutName "Medic"
+   m_sLoadoutResource "{816A594FAD3F711A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Medic.et"
+   m_sLoadoutImage "{EC2B8F2DADDCFE5E}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Medic.edds"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1D0319498}" {
+   m_sLoadoutName "Machinegunner"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1D23A1D9B}" {
+   m_sLoadoutName "Grenadier"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1D1C85AFC}" {
+   m_sLoadoutName "AntiTank"
+  }
+  SCR_FactionPlayerLoadout "{60D6AED1A14D066F}" {
+   m_sLoadoutName "Sniper"
+  }
+  SCR_FactionPlayerLoadout "{66452B5FB3171618}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sLoadoutImage ""
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{663EB9C946228707}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sLoadoutImage ""
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{663F169DF50EF294}" {
+   m_sLoadoutName "Sapper"
+   m_sLoadoutResource "{D70ED19BF7F83BE0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sapper.et"
+   m_sLoadoutImage "{26F0771F2BFC9C94}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sapper.edds"
+  }
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 20.724 0 7.936
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 27.209 0 10.918
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 0 0 0
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 327.277 1 474.28
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+   m_sLoadoutResource "{C1C66FD845D7EE89}Prefabs/Characters/Campaign/RHS/Coop/Campaign_MSV_Player.et"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
+   m_sLoadoutResource "{8B567897680EB9FA}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
+   m_sLoadoutResource "{C1C66FD845D7EE89}Prefabs/Characters/Campaign/RHS/Coop/Campaign_MSV_Player.et"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_PlayerArsenalLoadout "{5B108B4948B445F8}" {
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+ }
+}

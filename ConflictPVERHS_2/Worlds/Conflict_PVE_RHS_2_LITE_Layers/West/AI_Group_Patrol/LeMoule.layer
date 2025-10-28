@@ -1,0 +1,109 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 2111.386 109.675 5420.088
+  angleX -1.968
+  angleY -52.959
+  angleZ -0.364
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.536 -0.092 5.805
+    angleX 0.895
+    angleY 52.979
+    angleZ 1.79
+   }
+  }
+ }
+ {
+  coords 2547.969 87.993 5172.618
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 42.772 6.176 -11.77
+    }
+    {
+     coords 129.284 12.45 -11.1
+    }
+    {
+     coords 215.087 16.371 17.986
+    }
+    {
+     coords 254.541 19.782 53.368
+    }
+    {
+     coords 82.099 6.514 59.844
+    }
+    {
+     coords -31.058 -5.358 13.71
+    }
+   }
+  }
+ }
+ {
+  coords 2392.061 113.944 5487.462
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -42.083 -5.731 -90.88
+    }
+    {
+     coords -54.898 -11.987 -146.16
+    }
+    {
+     coords 9.815 -9.475 -95.264
+    }
+    {
+     coords 60.615 -3.329 16.558
+    }
+    {
+     coords 9.541 1.834 43.41
+    }
+   }
+  }
+ }
+ {
+  coords 3000.55 121.982 5495.358
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -79.157 -3.211 94.102
+    }
+    {
+     coords -160.355 -5.928 123.701
+    }
+    {
+     coords -270.273 -7.613 128.952
+    }
+    {
+     coords -331.022 -11.381 157.694
+    }
+    {
+     coords -386.539 -14.983 232.709
+    }
+    {
+     coords -153.194 -5.424 241.542
+    }
+    {
+     coords -39.635 0.825 162.546
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+   }
+  }
+  coords 2676.637 94.645 5383.615
+  {
+   SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}

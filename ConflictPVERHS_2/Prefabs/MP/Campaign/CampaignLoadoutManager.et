@@ -1,0 +1,29 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "5690D9DBA5D97663"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{66452B5A7F3184F7}" {
+   m_sLoadoutName "MSV MG"
+   m_sLoadoutResource "{A9A4F7F6CCC49144}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_MG.et"
+   m_sLoadoutImage "{34A501A6B1510F74}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_MG.edds"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{66452B5A7E1613A9}" {
+   m_sLoadoutName "MSV GL"
+   m_sLoadoutResource "{F66657CD553CEC8D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_GL.et"
+   m_sLoadoutImage "{7BF2B1F120295CA3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_GL.edds"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{66452B5A790CA01D}" {
+   m_sLoadoutName "MSV AT"
+   m_sLoadoutResource "{231B402DDB029BFB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AT.et"
+   m_sLoadoutImage "{1C1898A0E3B0A6F3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AT.edds"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+  SCR_FactionPlayerLoadout "{66452B5A5DCE6521}" {
+   m_sLoadoutName "MSV Sharpshooter"
+   m_sLoadoutResource "{C55F0D12342C6756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sharpshooter.et"
+   m_sLoadoutImage "{103A91EFE54E6FC8}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sharpshooter.edds"
+   m_sAffiliatedFaction "RHS_AFRF"
+  }
+ }
+}

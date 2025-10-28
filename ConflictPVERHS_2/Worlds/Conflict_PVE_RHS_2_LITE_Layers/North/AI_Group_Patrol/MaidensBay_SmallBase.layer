@@ -1,0 +1,41 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  coords 4987.004 30.868 10593.056
+  angleY -20.38
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -141.294 1.406 -2.704
+    }
+    {
+     coords -122.074 11.584 -127.057
+    }
+    {
+     coords 38.714 5.934 -80.465
+    }
+    {
+     coords 109.867 7.052 -51.219
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 4962.785 28.873 10631.666
+  angleX 1.124
+  angleY 162.366
+  angleZ 0.582
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.002 0.084 5.806
+    angleX 0.895
+    angleY -162.353
+    angleZ 0.895
+   }
+  }
+ }
+}

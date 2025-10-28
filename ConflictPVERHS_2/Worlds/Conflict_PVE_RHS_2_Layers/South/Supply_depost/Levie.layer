@@ -1,0 +1,109 @@
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 6912.457 57.718 4482.109
+ angleX 5.237
+ angleY 9.194
+ angleZ -9.891
+ {
+  $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 2.197 -0.451 14.954
+    angleX 4.671
+    angleY -52.501
+    angleZ 10.169
+   }
+   {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 600
+     }
+    }
+    coords 261.329 17.713 -34.628
+    angleX 16.097
+    angleY 138.824
+    angleZ -6.652
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 166.878 16.67 -189.955
+      angleX -19.166
+      angleY -58.915
+      angleZ 19.472
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
+ {
+  coords 6914.712 50.906 4436.838
+  angleY -121.473
+ }
+ {
+  coords 6947.63 59.075 4481.804
+  angleX -2.595
+  angleY 133.048
+ }
+}
+$grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
+ {
+  coords 6941.625 54.323 4444.806
+  angleX -1.977
+  angleY -51.323
+  angleZ -11.232
+ }
+ {
+  coords 6953.945 59.201 4480.212
+  angleX -8.057
+  angleY -137.445
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 6871.241 41.384 4429.408
+ angleY -149.444
+}
+GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ coords 6924.792 59.537 4485.83
+ angleY -49.201
+ angleZ -1.769
+ {
+  GenericEntity {
+   ID "5D4539393E1536C3"
+   {
+    GenericEntity {
+     ID "5D45393936823FC0"
+     coords -1.421 -0.334 0.304
+     angleX -0.394
+     angleY 0.022
+    }
+    GenericEntity {
+     ID "5D45393936823FC3"
+     coords 1.182 -0.196 0.211
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D1ED922875C41AD"
+   coords -4.154 -0.125 -1.065
+   angleY -2.198
+  }
+  GenericEntity {
+   ID "5D1ED922875C415B"
+   coords -3.986 -0.379 1.365
+   angleY 4.848
+  }
+  GenericEntity {
+   ID "5D1ED922875C4149"
+   coords -4.226 -0.303 0.156
+   angleY -87.751
+  }
+ }
+}

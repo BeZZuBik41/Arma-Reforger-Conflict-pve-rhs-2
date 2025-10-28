@@ -1,0 +1,128 @@
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ VehicleSpawnPoint_11 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     21 20
+    }
+    m_aExcludedEditableEntityLabels {
+    }
+    m_bIsVehiclePatrol 1
+   }
+  }
+  coords 3355.785 115.178 4370.921
+  {
+   GenericEntity AmbientPatrol13 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords 0 0 0
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      AIWaypoint_Vehicle_Patrol_21 {
+       coords 0 0 0
+      }
+      AIWaypoint_Vehicle_Patrol_22 {
+       coords 131.129 18.85 82.885
+      }
+      AIWaypoint_Vehicle_Patrol_23 {
+       coords 275.219 28.039 180.075
+      }
+      AIWaypoint_Vehicle_Patrol_24 {
+       coords 397.337 23.427 282.263
+      }
+      AIWaypoint_Vehicle_Patrol_25 {
+       coords 592.957 13.036 341.246
+      }
+      AIWaypoint_Vehicle_Patrol_26 {
+       coords 679.892 -2.089 389.679
+      }
+     }
+    }
+   }
+  }
+ }
+ VehicleSpawnPoint_20 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     21 50 53
+    }
+    m_aExcludedEditableEntityLabels {
+    }
+    m_bIsVehiclePatrol 1
+   }
+  }
+  coords 2564.823 88.774 5360.615
+  {
+   GenericEntity AmbientPatrol30 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords 0 0 0
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      AIWaypoint_Vehicle_Patrol_109 {
+       coords 0 0 0
+      }
+      AIWaypoint_Vehicle_Patrol_110 {
+       coords -304.962 19.175 5.888
+      }
+      AIWaypoint_Vehicle_Patrol_111 {
+       coords -544.917 14.026 134.221
+      }
+      AIWaypoint_Vehicle_Patrol_112 {
+       coords -815.759 -7.587 291.593
+      }
+     }
+    }
+   }
+  }
+ }
+ VehicleSpawnPoint_22 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     21 53
+    }
+    m_aExcludedEditableEntityLabels {
+    }
+    m_bIsVehiclePatrol 1
+   }
+  }
+  coords 3150.26 119.285 5236.402
+  {
+   GenericEntity AmbientPatrol32 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords 0 0 0
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      AIWaypoint_Vehicle_Patrol_119 {
+       coords 0 0 0
+      }
+      AIWaypoint_Vehicle_Patrol_120 {
+       coords 126.665 -4.35 -108.974
+      }
+      AIWaypoint_Vehicle_Patrol_121 {
+       coords 282.076 0.127 -165.345
+      }
+      AIWaypoint_Vehicle_Patrol_122 {
+       coords 639.942 -3.719 -263.692
+      }
+     }
+    }
+   }
+  }
+ }
+}

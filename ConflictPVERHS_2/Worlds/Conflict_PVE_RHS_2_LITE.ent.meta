@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6666DE0BF1A7E2CC}Worlds/Conflict_PVE_RHS_2_LITE.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

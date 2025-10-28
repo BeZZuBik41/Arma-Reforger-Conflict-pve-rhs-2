@@ -1,0 +1,280 @@
+$grp GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
+ {
+  coords 5078.705 22.112 4011.507
+  angleY 85.939
+ }
+ {
+  coords 9686.229 20.445 1520.665
+  angleY 51.088
+ }
+ {
+  coords 4785.469 175.171 6947.485
+  angleY -17.995
+ }
+ {
+  coords 7049.026 125.471 5987.171
+  angleY -38
+ }
+ {
+  coords 4503.644 22.471 10744.939
+  angleY 170.102
+ }
+ {
+  coords 4397.461 17.616 10768.144
+  angleY 154.465
+ }
+ {
+  coords 8806.623 102.775 2740.502
+  angleY 74.7
+ }
+ {
+  coords 1297.92 46.053 6065.443
+  angleY -140.587
+ }
+}
+$grp GenericEntity : "{14C9DB955A3AF38F}Prefabs/Compositions/Misc/SubCompositions/Building/PierShed_01_FIA_01.et" {
+ {
+  coords 4987.313 2.187 3822.343
+  angleY -61
+ }
+ {
+  coords 4325.873 1.125 9499.855
+  angleY 79.111
+ }
+ {
+  coords 907.962 2.75 6069.669
+  angleY 38.144
+ }
+}
+$grp GenericEntity : "{343F8773B9C33154}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I03_FIA_01.et" {
+ {
+  coords 7414.177 143.011 4721.915
+  angleY 101.331
+ }
+ {
+  coords 7566.376 89.591 5475.544
+  angleY 160.495
+ }
+ {
+  coords 7165.087 144.292 2350.062
+  angleY 179.293
+ }
+}
+$grp GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ {
+  coords 5008.265 19.067 4053.083
+  angleY 0
+ }
+ {
+  coords 7488.525 142.757 4653.941
+  angleY 34.582
+ }
+ {
+  coords 5571 88.403 5858.812
+  angleY -72
+ }
+ {
+  coords 5818.638 219.563 7125.285
+  angleY 22.692
+ }
+ {
+  coords 4935.817 172.087 6978.302
+  angleY -45.78
+ }
+ {
+  coords 4643.65 160.739 6938.673
+  angleY 57
+ }
+ {
+  coords 4951.702 43.131 8976.604
+  angleY -74.147
+ }
+ {
+  coords 4117.552 39.048 7731.178
+  angleY 36.365
+ }
+ {
+  coords 2952.552 78.418 6555.573
+  angleY 56.884
+ }
+ {
+  coords 2597.516 88.643 5319.014
+  angleY 60.275
+ }
+ {
+  coords 4690.884 23.208 10658.142
+  angleY -1.284
+ }
+ {
+  coords 4446.625 19.269 10576.582
+  angleY -4.017
+ }
+ {
+  coords 5324.448 62.981 5362.325
+  angleY -61
+ }
+ {
+  coords 8747.041 103.534 2829.624
+  angleY 67
+ }
+}
+$grp GenericEntity : "{52F4E50D3A7C45C3}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_police_FIA_01.et" {
+ {
+  coords 4475.164 21.856 9479.438
+  angleY -90
+ }
+ {
+  coords 9639.281 24.778 1580.977
+  angleY 158.781
+ }
+ {
+  coords 4815.31 175.218 7062.226
+  angleY 61.818
+ }
+ {
+  coords 4551.542 25.535 10747.312
+  angleY -11.113
+ }
+}
+$grp GenericEntity : "{60F851178E5A1E0F}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_02_FIA_01.et" {
+ {
+  coords 4983.367 37.312 9099.604
+  angleY -153.656
+ }
+ {
+  coords 2608.477 105.187 5549.981
+  angleY -96.763
+ }
+ {
+  coords 8906.745 96.066 2810.668
+  angleY -34.382
+ }
+}
+GenericEntity : "{74D58E23F798FDF1}Prefabs/Compositions/Misc/SubCompositions/Building/Sawmill_E_01_FIA_01.et" {
+ coords 7286.827 139.056 2502.891
+ angleY 57.307
+}
+$grp GenericEntity : "{8650C85210C0B43A}Prefabs/Compositions/Misc/SubCompositions/Building/Warehouse_01_FIA_01.et" {
+ {
+  coords 4426.118 15.144 9571.901
+  angleY 85.141
+ }
+ {
+  coords 4368.972 1.698 10988.233
+  angleY 53.588
+ }
+ {
+  coords 1099.316 2.882 6128.049
+  angleY 152.83
+ }
+}
+$grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ {
+  coords 5135.394 15.012 4071.169
+  angleY 166.793
+ }
+ {
+  coords 5065.978 14.903 4015.218
+  angleY 178.56
+ }
+ {
+  coords 5509.416 95.521 6024.074
+  angleY 118.393
+ }
+ {
+  coords 5848.346 212.957 7024.426
+  angleY 25.687
+ }
+ {
+  coords 4455.803 14.011 9485.861
+  angleY 88.144
+ }
+ {
+  coords 9966.532 2.703 1616.221
+  angleY 15.612
+ }
+ {
+  coords 9994.193 2.64 1624.931
+  angleY -164.476
+ }
+ {
+  coords 9641.729 16.999 1560.067
+  angleY -38.563
+ }
+ {
+  coords 4858.032 163.852 7116.543
+  angleY -120.389
+ }
+ {
+  coords 4881.356 35.69 9103.943
+  angleY 35.566
+ }
+ {
+  coords 7505.455 83.873 5502.318
+  angleY 138.485
+ }
+ {
+  coords 7018.454 117.12 5970.862
+  angleY -35.131
+ }
+ {
+  coords 4430.895 7.171 10958.176
+  angleY 168.325
+ }
+ {
+  coords 4680.646 20.964 10759.575
+  angleY -178.313
+ }
+ {
+  coords 4410.372 6.778 10897.244
+  angleY -13.677
+ }
+ {
+  coords 5227.718 60.882 5383.343
+  angleY 132.228
+ }
+ {
+  coords 1223.124 31.263 6073.083
+  angleY 87.531
+ }
+}
+GenericEntity : "{A887806F6DA7E824}Prefabs/Compositions/Misc/SubCompositions/Building/LighthouseMedium_01_FIA_01.et" {
+ coords 3925.539 8.015 10769.287
+ angleY 114
+}
+GenericEntity : "{C237E5D320045C6A}Prefabs/Compositions/Misc/SubCompositions/Building/LighthouseSmall_01_FIA_01.et" {
+ coords 1124.654 34.659 6393.423
+ angleY 121
+}
+$grp GenericEntity : "{C9517330958DCD27}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_FIA_01.et" {
+ {
+  coords 5011.68 23.553 3961.902
+  angleY -166.272
+ }
+ {
+  coords 4441.347 14.905 10940.319
+  angleY 80
+ }
+ {
+  coords 1349.528 50.611 6045.486
+  angleY 131
+ }
+}
+$grp GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_03_FIA_01.et" {
+ {
+  coords 7505.734 137.393 4735.089
+  angleY -177.549
+ }
+ {
+  coords 5570.69 91.956 5976.786
+  angleY 3.377
+ }
+ {
+  coords 9617.072 22.735 1644.516
+  angleY -9.693
+ }
+ {
+  coords 7223.336 137.549 2372.413
+  angleY -0.305
+ }
+}
